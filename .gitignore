@@ -1,0 +1,41 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node.js
+node_modules/
+
+# Local environment settings
+.env
+.env.local
+.env.*.local
+
+# Vite build output
+dist
+dist-ssr
+*.local
+
+# IDE и редакторы
+.vscode/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# MacOS системные файлы
+.DS_Store
+
+# Windows системные файлы
+Thumbs.db
+
+# Editor directories and files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
